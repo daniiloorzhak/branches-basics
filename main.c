@@ -9,10 +9,11 @@ int fib_rec(int n)
     return fib_rec(n - 1) + fib_rec(n - 2);
 }
 
-int main()
+int main() 
 {
     printf("%d\n", fib_rec(0));
     printf("%d\n", fib_rec(1));
     printf("%d\n", fib_rec(2));
+    printf("%d\n", fib_rec(3));
     return 0;
 }
