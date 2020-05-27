@@ -12,5 +12,6 @@ int fib_rec(int n)
 int main()
 {
     printf("%d\n", fib_rec(0));
+	printf("%d\n", fib_rec(1));
     return 0;
 }
